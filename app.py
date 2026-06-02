@@ -56,7 +56,7 @@ import pandas as pd
 import io
 from functions import *
 from www.services import *
-from google import genai
+import google.genai as genai
 from shiny import express
 from shiny import render, ui
 from google.genai import types
